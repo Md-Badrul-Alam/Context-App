@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.users{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.user{
+  background-color: rgba(14, 159, 159, 0.626);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.component{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+}
